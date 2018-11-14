@@ -8,12 +8,26 @@
         tools:context=".MainActivity">
 
     <TextView
+            android:id="@+id/ipadress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="ipadress"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintVertical_bias="0.032"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:id="@+id/inputText" tools:layout_editor_absoluteY="365dp" tools:layout_editor_absoluteX="39dp"/>
+    <Button
+            android:text="Send"
+            android:id="@+id/send"
+            android:layout_width="197dp"
+            android:layout_height="39dp" tools:layout_editor_absoluteY="456dp"
+            tools:layout_editor_absoluteX="94dp"/>
 
 </android.support.constraint.ConstraintLayout>
